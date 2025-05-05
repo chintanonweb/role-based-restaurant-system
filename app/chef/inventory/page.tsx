@@ -67,7 +67,7 @@ export default function InventoryManagementPage() {
       case 'in-stock':
         return <Badge className="bg-green-500">In Stock</Badge>;
       case 'low':
-        return <Badge variant="warning">Low Stock</Badge>;
+        return <Badge className="bg-yellow-400 text-black">Low Stock</Badge>;
       case 'out-of-stock':
         return <Badge variant="destructive">Out of Stock</Badge>;
       default:
