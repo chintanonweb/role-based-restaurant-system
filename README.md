@@ -44,7 +44,7 @@ A modern, full-featured restaurant management solution built with Next.js, featu
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/restaurant-management-system.git
+git clone https://github.com/chintanonweb/restaurant-management-system.git
 ```
 
 2. Install dependencies:
@@ -63,6 +63,10 @@ Use these credentials to test different user roles:
 
 - **Admin Account**
   - Username: admin
+  - Password: 2025DEVChallenge
+
+- **Chef Account**
+  - Username: chef
   - Password: 2025DEVChallenge
 
 - **Customer Account**
