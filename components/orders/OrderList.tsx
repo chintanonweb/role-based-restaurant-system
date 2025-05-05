@@ -40,13 +40,13 @@ export function OrderList({ orders, showCustomerName = false }: OrderListProps) 
       case 'ready':
         return 'default';
       case 'delivered':
-        return 'success';
+        return 'default'; // was 'success'
       case 'cancelled':
         return 'destructive';
       default:
         return 'outline';
     }
-  };
+  };  
   
   const handleUpdateStatus = (orderId: string, currentStatus: Order['status']) => {
     const nextStatus = (() => {
